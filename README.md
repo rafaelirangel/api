@@ -32,12 +32,11 @@ You can find information such as Hiking Trails, Campground, Parks and Tours(Natu
 
 
 ## Endpoints 
-```
+
 | URL | PATH | METHOD | DESCRIPTION
 | -------- | -------- | -------- | -------- |
 | /trails, URL  | /, PATH | GET, METHOD | List all items of trails, DESCRIPTION |
 
-```
 
 ```
 |URL	PATH	METHOD 	DESCRIPTION
