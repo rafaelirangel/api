@@ -50,15 +50,18 @@ You can find information such as Hiking Trails, Campground, Parks and Tours(Natu
 | /tours/123 | /:tourType/:id | DELETE | Delete a tour |
 
 
-
+## Campgrounds Endpoints 
 |URL | PATH	| METHOD | DESCRIPTION |
-|    |      |        |             |
-|    |      |        |             |
+| -------- | -------- | -------- | -------- |
+| /campgrounds | / | GET | List all items of Campgrounds |
+| /campgrounds/123 | /:id | GET | Render a single Campground |
 
 
+## Parks Endpoints 
 |URL | PATH	| METHOD | DESCRIPTION |
-|    |      |        |             |
-|    |      |        |             |
+| -------- | -------- | -------- | -------- |
+| /parks | /   |  GET | List all items of Parks |
+| /parks/Adams | /:name | GET | Render a park based on its name |
 
 
 
