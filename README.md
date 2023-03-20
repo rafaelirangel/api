@@ -1,5 +1,5 @@
 ## The Natural Adventure API
-This project goal is to create a REST API from scratch using Mongoose and Express.js.
+This project goal is to create a REST API with full CRUD operations from scratch using MongoDb, Mongoose and Express.js.
 
 ## About 
 This REST API was inspired by my passion for nature and adventure.
