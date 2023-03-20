@@ -2,8 +2,12 @@
 This project goal is to create a REST API with full CRUD operations from scratch using MongoDb, Mongoose and Express.js.
 
 ## About 
-This REST API was inspired by my passion for nature and adventure.
-You can find information such as Hiking Trails, Campground, Parks and Tours(Nature, Historic and Cave Tours). It was created using [NPS API](https://www.nps.gov/subjects/developer/api-documentation.htm#/), [RIDB API](https://ridb.recreation.gov/docs), and [Kaggle "National Park Trails"](https://www.kaggle.com/datasets/planejane/national-park-trails)
+This REST API was inspired by my passion for nature and adventure.  
+You can find information such as Hiking Trails, Campground, Parks and Tours(Nature, Historic and Cave Tours).  
+It was created using:
+- [NPS API](https://www.nps.gov/subjects/developer/api-documentation.htm#/),  
+- [RIDB API](https://ridb.recreation.gov/docs),  
+- [Kaggle "National Park Trails"](https://www.kaggle.com/datasets/planejane/national-park-trails)
 
 ## Installation
 1. **Clone the repo** 
