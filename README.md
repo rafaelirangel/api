@@ -3,31 +3,31 @@ This project goal is to create a REST API from scratch using Mongoose and Expres
 
 ## About 
 This REST API was inspired by my passion for nature and adventure.
-You can find information such as Hiking Trails, Campground, Parks and Tours(Nature, Historic and Cave Tours). It was created using [NPS API] (https://www.nps.gov/subjects/developer/api-documentation.htm#/), [RIDB API](https://ridb.recreation.gov/docs), and [Kaggle "National Park Trails"](https://www.kaggle.com/datasets/planejane/national-park-trails)
+You can find information such as Hiking Trails, Campground, Parks and Tours(Nature, Historic and Cave Tours). It was created using [NPS API](https://www.nps.gov/subjects/developer/api-documentation.htm#/), [RIDB API](https://ridb.recreation.gov/docs), and [Kaggle "National Park Trails"](https://www.kaggle.com/datasets/planejane/national-park-trails)
 
 ## Installation
-1. Clone the repo
-    - Git clone [clone link] 
+1. **Clone the repo** 
+    - > Git clone [clone link] 
 
-2. Install dependencies
-    - npm install express mongoose nodemon apidoc 
+2. **Install dependencies**
+    - > npm install express mongoose nodemon apidoc 
 
-3. Seed the data
-    - Navigate into the lib file
+3. **Seed the data**
+    - > Navigate into the lib file
 
-        - node db/seed.js 
+        - > node db/seed.js 
 
-4. Start the server
-    - Navigate into the repo file
+4. **Start the server**
+    - > Navigate into the repo file
 
-        - nodemon app.js || 
-        - node app.js
+        - > nodemon app.js || 
+        - > node app.js
 
-5. Open in browser
-    - http://localhost:3000/
+5. **Open in browser**
+    - > http://localhost:3000/
 
-6. For documentation open the doc link
-    - open ./docs/index.html
+6. **For documentation open the doc link**
+    - > open ./docs/index.html
 
 
 
@@ -66,8 +66,7 @@ You can find information such as Hiking Trails, Campground, Parks and Tours(Natu
 
 
 ## Database
-My database was built using Mongoose and Node.js. The way I constructed it was by creating models in the lib/models folder and seeding it in the lib/db/seed.js file. Note that I used Axios to retrieve data from one of my API "NPS API"(Parks), and .Json to retrieve data from the other 3 models(Campground, Tours, Trails).
-
+The database was built using MondoDB, Mongoose and Node.js. This API is set up to do Full CRUD operations using GET, POST, PUT, and DELETE requests. The way I constructed it was by creating models in the lib/models folder and seeding it in the lib/db/seed.js file. Note that I used Axios to retrieve data from one of my API "NPS API"(Parks), and .Json to retrieve data from the other 3 models(Campground, Tours, Trails).
 
 ## Technology Used
 MongoDB
