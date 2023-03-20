@@ -11,7 +11,8 @@ It was created using:
 
 ## Installation
 1. **Clone the repo** 
-    - > Git clone [clone link] 
+    - > Git clone 
+        - Clone Link -> https://github.com/rafaelirangel/api.git
 
 2. **Install dependencies**
     - > npm install express mongoose nodemon apidoc 
