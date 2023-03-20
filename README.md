@@ -31,7 +31,7 @@ You can find information such as Hiking Trails, Campground, Parks and Tours(Natu
 
 
 
-## Endpoints 
+## Trails Endpoints 
 
 | URL | PATH | METHOD | DESCRIPTION
 | -------- | -------- | -------- | -------- |
@@ -40,8 +40,9 @@ You can find information such as Hiking Trails, Campground, Parks and Tours(Natu
 | /trails/North Rim/Point Imperial | /:cityName/:name | GET | Render a specific trail by the Trail Name |
 | /trails | / | PUT | Update num_reviews of all the trails |
 
-
-|URL | PATH	| METHOD | DESCRIPTION |
+## Tours Endpoints 
+| URL | PATH | METHOD | DESCRIPTION |
+| -------- | -------- | -------- | -------- |
 | /tours | / | GET | List all items of Tours |
 | /tours/Nature Tour | /:tourType | GET | Render all items that has a type of "Nature Tour" |
 | /tours/Nature Tour/123 | /:tourType/:id | GET | Render all items that has a type of "Nature Tour" |
