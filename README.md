@@ -35,7 +35,10 @@ You can find information such as Hiking Trails, Campground, Parks and Tours(Natu
 
 | URL | PATH | METHOD | DESCRIPTION
 | -------- | -------- | -------- | -------- |
-| /trails, URL  | /, PATH | GET, METHOD | List all items of trails, DESCRIPTION |
+| /trails | / | GET | List all items of trails |
+| /trails/North Rim | /:cityName | GET |  Render Trails based on the City name |
+| /trails/North Rim/Point Imperial | GET | Render a specific trail by the Trail Name |
+| /trails | / | PUT | Update num_reviews of all the trails |
 
 
 ```
