@@ -42,7 +42,7 @@ It was created using:
 | -------- | -------- | -------- | -------- |
 | /trails | / | GET | List all items of trails |
 | /trails/North Rim | /:cityName | GET |  Render Trails based on the City name |
-| /trails/North Rim/Point Imperial | /:cityName/:name | GET | Render a specific trail by the Trail Name |
+| /trails/North Rim/Point Imperial | /:cityName/:name | GET | Render a specific trail by its Name |
 | /trails | / | PUT | Update num_reviews of all the trails |
 
 ## Tours Endpoints 
@@ -59,7 +59,7 @@ It was created using:
 |URL | PATH	| METHOD | DESCRIPTION |
 | -------- | -------- | -------- | -------- |
 | /campgrounds | / | GET | List all items of Campgrounds |
-| /campgrounds/123 | /:id | GET | Render a single Campground |
+| /campgrounds/123 | /:id | GET | Render a single Campground by its ID |
 
 
 ## Parks Endpoints 
