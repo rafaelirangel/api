@@ -50,7 +50,7 @@ It was created using:
 | -------- | -------- | -------- | -------- |
 | /tours | / | GET | List all items of Tours |
 | /tours/Nature Tour | /:tourType | GET | Render all items that has a type of "Nature Tour" |
-| /tours/Nature Tour/123 | /:tourType/:id | GET | Render all items that has a type of "Nature Tour" |
+| /tours/Nature Tour/123 | /:tourType/:id | GET | Render a single Tour by its ID |
 | /tours | / | POST | Create a new tour in the database |
 | /tours/123 | /:tourType/:id | DELETE | Delete a tour |
 
