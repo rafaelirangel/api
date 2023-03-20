@@ -37,30 +37,29 @@ You can find information such as Hiking Trails, Campground, Parks and Tours(Natu
 | -------- | -------- | -------- | -------- |
 | /trails | / | GET | List all items of trails |
 | /trails/North Rim | /:cityName | GET |  Render Trails based on the City name |
-| /trails/North Rim/Point Imperial | GET | Render a specific trail by the Trail Name |
+| /trails/North Rim/Point Imperial | /:cityName/:name | GET | Render a specific trail by the Trail Name |
 | /trails | / | PUT | Update num_reviews of all the trails |
 
 
-```
-|URL	PATH	METHOD 	DESCRIPTION
+|URL | PATH	| METHOD | DESCRIPTION |
+| /tours | / | GET | List all items of Tours |
+| /tours/Nature Tour | /:tourType | GET | Render all items that has a type of "Nature Tour" |
+| /tours/Nature Tour/123 | /:tourType/:id | GET | Render all items that has a type of "Nature Tour" |
+| /tours | / | POST | Create a new tour in the database |
+| /tours/123 | /:tourType/:id | DELETE | Delete a tour |
 
-|	/:cityName/:name	GET	Render a specific trail by the cityName and Trail Name
-/trails	/	PUT	Update num_reviews of all the trails
-			
-			
-/tours	/	GET	List all items of Tours
-/tours/Nature Tour	/:tourType	GET	Render all items that has a type of "Nature Tour"
-/tours/Nature Tour/123	/:tourType/:id	GET	Render a single tour 
-/tours	/	POST	Create a new tour in the database (I created TourID: 550, 551, 552)
-/tours/123	/:id	DELETE	Delete a tour
-			
-/campgrounds	/	GET	List all items of Campgrounds
-/campgrounds/123	/:id	GET	Render a single Campground
-			
-/parks	/	GET	List all items of Parks
-/parks/Adams	/:name	GET	Render a park based on its name
 
-```
+
+|URL | PATH	| METHOD | DESCRIPTION |
+|    |      |        |             |
+|    |      |        |             |
+
+
+|URL | PATH	| METHOD | DESCRIPTION |
+|    |      |        |             |
+|    |      |        |             |
+
+
 
 ## Database
 My database was built using Mongoose and Node.js. The way I constructed it was by creating models in the lib/models folder and seeding it in the lib/db/seed.js file. Note that I used Axios to retrieve data from one of my API "NPS API"(Parks), and .Json to retrieve data from the other 3 models(Campground, Tours, Trails).
